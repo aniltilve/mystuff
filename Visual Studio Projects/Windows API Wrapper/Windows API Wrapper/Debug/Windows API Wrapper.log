@@ -1,0 +1,18 @@
+﻿Build started 11/7/2014 11:53:23 AM.
+     1>Project "G:\Visual Studio Projects\Windows API Wrapper\Windows API Wrapper\Windows API Wrapper.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Rectangle.cpp
+         Rectangle.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Visual Studio Projects\Windows API Wrapper\Debug\Windows API Wrapper.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\Visual Studio Projects\Windows API Wrapper\Debug\Windows API Wrapper.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\Visual Studio Projects\Windows API Wrapper\Debug\Windows API Wrapper.lib" /MACHINE:X86 Debug\HelloWindows.obj
+         Debug\Message.obj
+         Debug\Rectangle.obj
+         Debug\Window.obj
+         Debug\WindowClass.obj
+     1>Rectangle.obj : error LNK2019: unresolved external symbol "public: __thiscall windows_API_Wrapper::wRectangle::wRectangle(class windows_API_Wrapper::wRectangle const &)" (??0wRectangle@windows_API_Wrapper@@QAE@ABV01@@Z) referenced in function "public: class windows_API_Wrapper::wRectangle __thiscall windows_API_Wrapper::wRectangle::Intersect(class windows_API_Wrapper::wRectangle,class windows_API_Wrapper::wRectangle)" (?Intersect@wRectangle@windows_API_Wrapper@@QAE?AV12@V12@0@Z)
+     1>G:\Visual Studio Projects\Windows API Wrapper\Debug\Windows API Wrapper.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "G:\Visual Studio Projects\Windows API Wrapper\Windows API Wrapper\Windows API Wrapper.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.21
